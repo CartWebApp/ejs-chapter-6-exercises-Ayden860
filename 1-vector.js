@@ -6,7 +6,18 @@
 
 // Your code here.
 
-
+class Vec{
+    constructor(x, y){
+        Vec.prototype.first = x;
+        Vec.prototype.second = y;
+    }
+    plus() {
+        d
+    }
+    minus() {
+        d
+    }
+}
 // Tests:
 console.log(new Vec(1, 2).plus(new Vec(2, 3)));
 // → Vec{x: 3, y: 5}
@@ -14,3 +25,9 @@ console.log(new Vec(1, 2).minus(new Vec(2, 3)));
 // → Vec{x: -1, y: -1}
 console.log(new Vec(3, 4).length);
 // → 5
+
+// For prototype
+// https://www.programiz.com/javascript/prototype#:~:text=In%20JavaScript%2C%20every%20function%20and,checking%20the%20prototype%20value%20console.
+
+// For constructor
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
